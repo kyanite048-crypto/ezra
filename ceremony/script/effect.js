@@ -150,6 +150,8 @@ $('document').ready(function(){
 	});
 	
 	$('#story').click(function(){
+		// Hide the Happy Birthday message when reading the story
+		$('#happyBirthdayMsg').fadeOut('slow');
 		$(this).fadeOut('slow');
 		$('.cake').fadeOut('fast').promise().done(function(){
 			$('.message').fadeIn('slow');
