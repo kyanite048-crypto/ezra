@@ -37,9 +37,9 @@ document.addEventListener("DOMContentLoaded", function () {
   ];
 
   const targetDay = 13;
-  const targetMonthIndex = 1; // February
+  const targetMonthIndex = 2; // March
   const targetYear = 2026;
-  const birthYear = 2011;
+  const birthYear = 2009; // 2026 - 17 = 2009
 
   let currentDay = 1;
   let currentMonthIndex = 0;
